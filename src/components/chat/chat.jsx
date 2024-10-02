@@ -38,7 +38,6 @@ const Chat = () => {
           </div>
         </div>
         <div className="message own">
-          <img src="" alt="" />
           <div className="texts">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <span>1 hour ago</span>
@@ -52,24 +51,26 @@ const Chat = () => {
           </div>
         </div>
         <div className="message own">
-          <img src="" alt="" />
           <div className="texts">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <span>1 hour ago</span>
           </div>
-          <div className="message">
-            <img src="./avatar.png" alt="" />
-            <div className="texts">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <span>1 hour ago</span>
-            </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span>1 hour ago</span>
           </div>
-          <div className="message own">
-            <img src="" alt="" />
-            <div className="texts">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <span>1 hour ago</span>
-            </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <img
+              src="https://images.pexels.com/photos/19747682/pexels-photo-19747682/free-photo-of-yellow-tenement-in-lisbon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span>1 hour ago</span>
           </div>
         </div>
       </div>
